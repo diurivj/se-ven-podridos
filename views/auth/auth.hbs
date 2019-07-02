@@ -1,0 +1,12 @@
+<h2>{{title}}</h2>
+
+<h3>{{err}}</h3>
+
+<form action="{{action}}" method="POST">
+  {{#if signup}}
+  <input type="text" name="name" placeholder="Name" />
+  {{/if}}
+  <input type="email" name="email" />
+  <input type="password" name="password" />
+  <input type="submit" value="{{button}}">
+</form>

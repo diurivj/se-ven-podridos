@@ -71,4 +71,8 @@ router.get('/logout', (req, res, next) => {
   res.redirect('/login')
 })
 
+router.get('/admin/create', (req, res, next) => {
+  res.render('admin/create')
+})
+
 module.exports = router
